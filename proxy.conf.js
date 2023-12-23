@@ -4,9 +4,9 @@ const PROXY_CONFIG = [
       "/api",
     ],
     target: "https://toeicute-38c2b32a7c77.herokuapp.com/",
-    secure: true,
-    "changeOrigin": true,
-    "logLevel": "debug",
+    secure: false,
+    changeOrigin: true,
+    logLevel: "debug",
     pathRewrite: {"^/api": "/api"}
   }
 ];
